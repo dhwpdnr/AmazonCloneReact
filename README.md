@@ -1,5 +1,7 @@
 # Amazon Clone Coding With React
 
+리액트 학습 목적
+
 ---
 
 # Getting Started with Create React App
