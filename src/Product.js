@@ -2,6 +2,10 @@ import React from 'react';
 import "./Product.css"
 
 function Product({id, title, image, price, rating}) {
+
+    const ar = Array(rating)
+    console.log("배열은 " + ar.fill("d"))
+
     return (
         <div className="product">
             <div className="product_info">
@@ -14,7 +18,7 @@ function Product({id, title, image, price, rating}) {
                     {
                         Array(rating)
                             .fill()
-                            .map(() => (
+                            .map((_, i) => (
                                 <p>★</p>
                             ))
 
